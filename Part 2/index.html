@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ASSIGNMENT 11 PART 2</title>
+
+    <link href="css/themes/jquery.mobile.icons.min.css" rel="stylesheet">
+    <link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet">
+    <link href="css/themes/assignment11.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/displayemployee.js"></script>
+</head>
+
+<body>
+    <!---------- HOME --------->
+    
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1>Directory</h1>
+        </header>
+
+        <section data-role="content">
+            <form class="ui-filterable">
+                <input id="empsearch" data-type="search" placeholder="Search">
+            </form>
+            <div id="intro">
+                <h4>Welcome to Directory!</h4>
+                <p>This is a sample app that demonstrates how to build applications with jQuery Mobile.</p>
+            </div>
+            <ul id="results" data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#empsearch">
+            </ul>
+        </section>
+    </div>
+
+    <!---------- EMPLOYEES --------->
+    
+    <div data-role="page" id="employeepage">
+        <header data-role="header">
+            <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+            <h1>Employee Details</h1>
+            <a href="#home" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-search">Search</a>
+        </header>
+
+        <section role="main" class="ui-content">
+            <ul data-role="listview" data-inset="false" id="empdetails-one"></ul>
+            <ul data-role="listview" data-inset="true" id="empdetails-two"></ul>
+        </section>
+        
+    </div>
+
+</body>
+
+</html>

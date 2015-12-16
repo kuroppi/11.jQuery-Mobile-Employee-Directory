@@ -1,0 +1,133 @@
+{
+    "teammembers": [
+        {
+            "id": "1",
+            "name": "James King",
+            "title": "CEO",
+            "imagepath": "images/james_king.jpg",
+            "officenumber": "858-555-1000",
+            "cellnumber": "858-555-9898",
+            "email": "jking@vectacorp.com",
+            "reportsto": "0"
+	},
+                {
+            "id": "2",
+            "name": "Amy Jones",
+            "title": "VP of Marketing",
+            "imagepath": "images/amy_jones.jpg",
+            "officenumber": "858-555-1001",
+            "cellnumber": "619-555-2317",
+            "email": "ajones@vectacorp.com",
+            "reportsto": "1"
+        },
+        {
+            "id": "3",
+            "name": "Ray Moore",
+            "title": "VP of Sales",
+            "imagepath": "images/ray_moore.jpg",
+            "officenumber": "858-555-1002",
+            "cellnumber": "858-555-1082",
+            "email": "rmoore@vectacorp.com",
+            "reportsto": "1"
+        },
+
+        {
+            "id": "4",
+            "name": "Eugene Lee",
+            "title": "VP of Development",
+            "imagepath": "images/eugene_lee.jpg",
+            "officenumber": "858-555-1003",
+            "cellnumber": "619-555-8721",
+            "email": "elee@vectacorp.com",
+            "reportsto": "1"
+        },
+
+        {
+            "id": "5",
+            "name": "Julie Taylor",
+            "title": "Marketing Specialist",
+            "imagepath": "images/julie_taylor.jpg",
+            "officenumber": "858-555-1004",
+            "cellnumber": "858-555-8820",
+            "email": "jtaylor@vectacorp.com",
+            "reportsto": "2"
+        },
+
+        {
+            "id": "6",
+            "name": "Kathleen Byrne",
+            "title": "Sales Representative",
+            "imagepath": "images/kathleen_byrne.jpg",
+            "officenumber": "858-555-1005",
+            "cellnumber": "619-555-7283",
+            "email": "kbyrne@vectacorp.com",
+            "reportsto": "3"
+        },
+
+        {
+            "id": "7",
+            "name": "John Williams",
+            "title": "QA Manager",
+            "imagepath": "images/john_williams.jpg",
+            "officenumber": "858-555-1006",
+            "cellnumber": "858-555-0184",
+            "email": "jwilliams@vectacorp.com",
+            "reportsto": "4"
+        },
+
+        {
+            "id": "8",
+            "name": "Lisa Wong",
+            "title": "Marketing Specialist",
+            "imagepath": "images/lisa_wong.jpg",
+            "officenumber": "858-555-1007",
+            "cellnumber": "619-555-9590",
+            "email": "lwong@vectacorp.com",
+            "reportsto": "2"
+        },
+
+        {
+            "id": "9",
+            "name": "Paul Jones",
+            "title": "Sales Representative",
+            "imagepath": "images/paul_jones.jpg",
+            "officenumber": "858-555-1008",
+            "cellnumber": "858-555-5591",
+            "email": "pjones@vectacorp.com",
+            "reportsto": "3"
+        },
+
+        {
+            "id": "10",
+            "name": "Paula Gates",
+            "title": "Marketing Specialist",
+            "imagepath": "images/paula_gates.jpg",
+            "officenumber": "858-555-1009",
+            "cellnumber": "619-555-8729",
+            "email": "pgates@vectacorp.com",
+            "reportsto": "2"
+        },
+
+        {
+            "id": "11",
+            "name": "Gary Donovan",
+            "title": "Software Engineer",
+            "imagepath": "images/gary_donovan.jpg",
+            "officenumber": "858-555-1010",
+            "cellnumber": "858-555-6942",
+            "email": "gdonovan@vectacorp.com",
+            "reportsto": "4"
+        },
+
+        {
+            "id": "12",
+            "name": "Steven Wells",
+            "title": "Software Engineer",
+            "imagepath": "images/steven_wells.jpg",
+            "officenumber": "858-555-1011",
+            "cellnumber": "858-555-7851",
+            "email": "swells@vectacorp.com",
+            "reportsto": "4"
+        }
+]
+}
